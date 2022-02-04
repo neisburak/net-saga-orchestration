@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/burakneis/Desktop/net-saga-orchestration/Payment.Service/Payment.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/burakneis/.nuget/packages/",
+        "outputPath": "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/burakneis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/burakneis/Desktop/net-saga-orchestration/Payment.Service/Payment.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/burakneis/Desktop/net-saga-orchestration/Payment.Service/Payment.Service.csproj",
+        "projectName": "Payment.Service",
+        "projectPath": "/Users/burakneis/Desktop/net-saga-orchestration/Payment.Service/Payment.Service.csproj",
+        "packagesPath": "/Users/burakneis/.nuget/packages/",
+        "outputPath": "/Users/burakneis/Desktop/net-saga-orchestration/Payment.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/burakneis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/burakneis/Desktop/net-saga-orchestration/Contracts/Contracts.csproj"
+              },
+              "/Users/burakneis/Desktop/net-saga-orchestration/Shared/Shared.csproj": {
+                "projectPath": "/Users/burakneis/Desktop/net-saga-orchestration/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/burakneis/Desktop/net-saga-orchestration/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/burakneis/Desktop/net-saga-orchestration/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/burakneis/Desktop/net-saga-orchestration/Shared/Shared.csproj",
+        "packagesPath": "/Users/burakneis/.nuget/packages/",
+        "outputPath": "/Users/burakneis/Desktop/net-saga-orchestration/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/burakneis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

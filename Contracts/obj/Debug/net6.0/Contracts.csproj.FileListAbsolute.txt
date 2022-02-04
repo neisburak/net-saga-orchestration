@@ -1,0 +1,12 @@
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/bin/Debug/net6.0/Contracts.deps.json
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/bin/Debug/net6.0/Contracts.dll
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/bin/Debug/net6.0/ref/Contracts.dll
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/bin/Debug/net6.0/Contracts.pdb
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.csproj.AssemblyReference.cache
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfoInputs.cache
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.AssemblyInfo.cs
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.csproj.CoreCompileInputs.cache
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.dll
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/ref/Contracts.dll
+/Users/burakneis/Desktop/net-saga-orchestration/Contracts/obj/Debug/net6.0/Contracts.pdb
