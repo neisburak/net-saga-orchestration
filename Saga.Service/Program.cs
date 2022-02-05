@@ -1,4 +1,5 @@
 using MassTransit;
+using Microsoft.EntityFrameworkCore;
 using Saga.Service;
 using Shared;
 
@@ -8,7 +9,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMassTransit(configure =>
 {
     configure.AddSagaStateMachine<OrderStateMachine, OrderStateInstance>()
-        .InMemoryRepository();
+        .EntityFrameworkRepository(config =>
+        {
+            config.AddDbContext<DbContext, OrderStateDbContext>((p, b) =>
+            {
+                b.UseSqlServer(builder.Configuration.GetConnectionString("OrderStateDb"));
+            });
+        });
+    //.InMemoryRepository();
 
     configure.AddBus(factory => Bus.Factory.CreateUsingRabbitMq(config =>
     {

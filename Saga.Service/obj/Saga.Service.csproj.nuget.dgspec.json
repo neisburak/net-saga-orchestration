@@ -101,9 +101,17 @@
               "target": "Package",
               "version": "[7.3.1, )"
             },
+            "MassTransit.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[7.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
